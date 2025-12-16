@@ -1,3 +1,4 @@
+import javax.sound.sampled.Line;
 import java.util.Scanner;
 
 public class Main {
@@ -10,9 +11,8 @@ public class Main {
         System.out.println("Enter your name: ");
         name = scanner.nextLine();
         System.out.println("Enter your roll number: ");
-        roll = scanner.nextInt();
+        roll = scanner.nextInt();scanner.nextLine();
         System.out.println("Enter your section: ");
-        scanner.nextLine(); scanner.next();
         section = scanner.nextLine();
         System.out.println("Enter your branch: ");
         branch = scanner.nextLine();

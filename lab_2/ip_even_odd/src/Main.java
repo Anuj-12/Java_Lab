@@ -1,5 +1,5 @@
 public class Main {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int even = 0, odd = 0;
 
         for(String arg : args){
@@ -8,6 +8,6 @@ public class Main {
             else odd++;
         }
 
-        System.out.printf("Number of even: %d, Number of odd: %d", even, odd);
+        System.out.printf("Number of even: %d, Number of odd: %d\n", even, odd);
     }
 }
