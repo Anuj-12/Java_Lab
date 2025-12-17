@@ -1,16 +1,13 @@
 public class Box {
-    double length;
-    double width;
-    double height;
+    double length, width, height;
 
     public Box(double length, double width, double height){
         this.length = length;
         this.width = width;
         this.height = height;
 
-        System.out.println("Length: " + length);
-        System.out.println("Width: " + width);
-        System.out.println("Height: " + height);
+        System.out.printf("Length: %s, Width: %s, Height: %s\n", length, width, height);
+        volume();
     }
 
     void volume(){

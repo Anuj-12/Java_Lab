@@ -8,6 +8,6 @@ public class Main {
             else odd++;
         }
 
-        System.out.printf("Number of even: %d, Number of odd: %d\n", even, odd);
+        System.out.printf("Even: %d, Odd: %d\n", even, odd);
     }
 }

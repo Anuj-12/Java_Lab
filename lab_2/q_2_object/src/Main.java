@@ -3,10 +3,7 @@ public class Main {
 
         Abc a1 = new Abc();
         Abc a2 = new Abc();
-        Abc a3 = new Abc();
-        Abc a4 = new Abc();
-
-        System.out.println("The number of objects created: " + Abc.num);
+        System.out.println("Objects created: " + Abc.num);
     }
 }
 

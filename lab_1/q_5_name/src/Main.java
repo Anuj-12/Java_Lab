@@ -7,12 +7,12 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter first name: ");
-        first = scanner.next();
-        System.out.println("Enter second name: ");
-        second = scanner.next();
+        System.out.print("Enter first name: ");
+        first = scanner.nextLine();
+        System.out.print("Enter second name: ");
+        second = scanner.nextLine();
 
-        System.out.println("Name: " + second + " " + first);
+        System.out.printf("Name: %s %s",second, first);
     }
 }
 
