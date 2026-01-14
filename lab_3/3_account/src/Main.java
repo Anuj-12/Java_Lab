@@ -4,9 +4,12 @@ public class Main{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Account account = new Account();
+        Person person = new Person();
 
-        System.out.println("Enter you info: ");
-        account.input(scanner.nextLong(), scanner.nextFloat());
+        System.out.println("Enter your info: ");
+//        account.input(scanner.nextLong(), scanner.nextFloat());
+        person.input(scanner.nextLine(), scanner.nextLong(),scanner.nextLong(), scanner.nextFloat());
+        person.disp();
     }
 }
 
@@ -36,6 +39,6 @@ class Person extends Account{
 
     @Override
     void disp(){
-
+        System.out.printf("Name: %s, Account no.: %d, Aadhar no.: %d, Balance: %.2f\n", name, accNo, aadharNo, balance);
     }
 }
